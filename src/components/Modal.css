@@ -1,0 +1,51 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5eded;
+}
+
+.modal__paper {
+  width: 35%;
+  background-color: white;
+  box-shadow: 0px 0px 14px 2px #bbbbbb;
+  position: relative;
+  padding: 30px;
+  border-radius: 0.5rem;
+}
+
+.modal__closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal__inputcat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.modal__inputcat label {
+  margin-bottom: 6px;
+}
+
+.modal__inputcat input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px dashed #636363;
+}
+
+.modal__inputcat button {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}

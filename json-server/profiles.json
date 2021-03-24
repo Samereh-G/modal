@@ -1,0 +1,12 @@
+{
+  "profiles": [
+    {
+      "email": "cds@njcks.com",
+      "password": "cndsjk",
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ]
+}
